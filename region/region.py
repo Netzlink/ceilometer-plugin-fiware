@@ -19,9 +19,9 @@
 
 from __future__ import absolute_import
 
-from oslo.config import cfg
-from oslo.utils import timeutils
-from ceilometer.openstack.common import log
+from oslo_config import cfg
+from oslo_utils import timeutils
+from oslo_log import log
 from ceilometer.agent import plugin_base
 from ceilometer import sample
 from neutronclient.v2_0 import client as clientN
